@@ -4,8 +4,7 @@
     "reporter": "list",
     "screenshots": {
         "path": "report/screenshots",
-        "takeOnFails": true,
-        "fullPage": true
+        "takeOnFails": true
     },
     "videoPath": "report/videos",
         "videoOptions": {
@@ -15,6 +14,5 @@
     "concurrency": 1,
     "selectorTimeout": 3000,
     "assertionTimeout": 1000,
-    "pageLoadTimeout": 1000,
-    "speed": 0.1
+    "pageLoadTimeout": 1000
 }
