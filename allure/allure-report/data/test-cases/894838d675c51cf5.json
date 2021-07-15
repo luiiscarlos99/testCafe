@@ -1,0 +1,117 @@
+{
+  "uid" : "894838d675c51cf5",
+  "name" : "User Registration and Login Test",
+  "fullName" : "Registration Fixture.User Registration and Login Test",
+  "historyId" : "57acd8e409763f8b3596a3296d38bfd6",
+  "time" : {
+    "start" : 1626357930109,
+    "stop" : 1626357946730,
+    "duration" : 16621
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected true to be falsy",
+  "statusTrace" : "AssertionError: expected true to be falsy\n                \n                Browser: Chrome 91.0.4472.114 / Linux 0.0\n                Screenshot: /home/accountfy/Documentos/TestCafeDemo/report/screenshots/2021-07-15_11-05-07/test-2/Chrome_91.0.4472.114_Linux_0.0/errors/1.png\n                \n                   51 |            .typeText(loginpage.passwordInput,  data.password)\n                   52 |            .click(loginpage.submitButton)\n                   53 |            .click(homepage.MyAccountLink)\n                   54 |            .expect(customerpage.ordersLink.exists).ok()\n                   55 |            .click(customerpage.ordersLink)\n                 > 56 |            .expect(customerpage.noOrdersLabel.exists).notOk()\n                   57 |            .takeScreenshot();\n                   58 |    })\n                   59 |});\n                \n                   at <anonymous> (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:56:56)\n                   at asyncGeneratorStep (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:5:271)\n                   at _next (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:5:609)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: expected true to be falsy",
+    "statusTrace" : "AssertionError: expected true to be falsy\n                \n                Browser: Chrome 91.0.4472.114 / Linux 0.0\n                Screenshot: /home/accountfy/Documentos/TestCafeDemo/report/screenshots/2021-07-15_11-05-07/test-2/Chrome_91.0.4472.114_Linux_0.0/errors/1.png\n                \n                   51 |            .typeText(loginpage.passwordInput,  data.password)\n                   52 |            .click(loginpage.submitButton)\n                   53 |            .click(homepage.MyAccountLink)\n                   54 |            .expect(customerpage.ordersLink.exists).ok()\n                   55 |            .click(customerpage.ordersLink)\n                 > 56 |            .expect(customerpage.noOrdersLabel.exists).notOk()\n                   57 |            .takeScreenshot();\n                   58 |    })\n                   59 |});\n                \n                   at <anonymous> (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:56:56)\n                   at asyncGeneratorStep (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:5:271)\n                   at _next (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:5:609)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "11878ecc5d70478f",
+      "name" : "Screenshot",
+      "source" : "11878ecc5d70478f.png",
+      "type" : "image/png",
+      "size" : 82463
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test run id or identifier"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "User Registration and Login Test"
+  }, {
+    "name" : "package",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/story id"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/test id"
+  }, {
+    "name" : "User Agent",
+    "value" : "test run id or identifier"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "2d18bccc7d41d63b",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1626357840532,
+        "stop" : 1626357855576,
+        "duration" : 15044
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3bce7478cc6923e1",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1626357840532,
+          "stop" : 1626357855576,
+          "duration" : 15044
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "894838d675c51cf5.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/story id", "https://jira.example.ca/secure/Tests.jspa#/testCase/test id", "test run id or identifier" ]
+}

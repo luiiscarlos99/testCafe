@@ -1,0 +1,96 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "User Registration and Login Test",
+    "uid" : "173d4189105833c2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626356632936,
+      "stop" : 1626356650512,
+      "duration" : 17576
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  }, {
+    "name" : "User Registration and Login Test",
+    "uid" : "2d18bccc7d41d63b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626357840532,
+      "stop" : 1626357855576,
+      "duration" : 15044
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "https://jira.example.ca/browse/story id", "https://jira.example.ca/secure/Tests.jspa#/testCase/test id", "test run id or identifier" ]
+  }, {
+    "name" : "Assert home page",
+    "uid" : "be26ca6a0e6902b3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626357824975,
+      "stop" : 1626357829107,
+      "duration" : 4132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  }, {
+    "name" : "Assert home page",
+    "uid" : "617ae45597f4f277",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626356614843,
+      "stop" : 1626356620050,
+      "duration" : 5207
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  }, {
+    "name" : "Assert home page",
+    "uid" : "93061a63b1e376e1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626357912972,
+      "stop" : 1626357917027,
+      "duration" : 4055
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  }, {
+    "name" : "User Registration and Login Test",
+    "uid" : "631edb54f8e639cd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626356648099,
+      "stop" : 1626356662739,
+      "duration" : 14640
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  }, {
+    "name" : "User Registration and Login Test",
+    "uid" : "894838d675c51cf5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1626357930109,
+      "stop" : 1626357946730,
+      "duration" : 16621
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ "https://jira.example.ca/browse/story id", "https://jira.example.ca/secure/Tests.jspa#/testCase/test id", "test run id or identifier" ]
+  } ]
+}

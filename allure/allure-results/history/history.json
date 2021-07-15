@@ -1,0 +1,80 @@
+{
+  "c2a5c991406f4c0f868501b894fdbf4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2b631f7aede5e12c",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1626356648099,
+        "stop" : 1626356662739,
+        "duration" : 14640
+      }
+    }, {
+      "uid" : "2f8c2ed871698bba",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1626356648099,
+        "stop" : 1626356662739,
+        "duration" : 14640
+      }
+    } ]
+  },
+  "b8593c4d01c9951ea21b8bfc0f07f041" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a4e7b0084ef9cba9",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1626357824975,
+        "stop" : 1626357829107,
+        "duration" : 4132
+      }
+    }, {
+      "uid" : "deb2ff961b0bcedd",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1626356614843,
+        "stop" : 1626356620050,
+        "duration" : 5207
+      }
+    } ]
+  },
+  "57acd8e409763f8b3596a3296d38bfd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3bce7478cc6923e1",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1626357840532,
+        "stop" : 1626357855576,
+        "duration" : 15044
+      }
+    } ]
+  }
+}

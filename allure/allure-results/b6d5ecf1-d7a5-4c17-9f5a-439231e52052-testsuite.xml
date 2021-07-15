@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626357930109' stop='1626357930120'>
+    <name>Registration Fixture</name>
+    <title>Registration Fixture</title>
+    <test-cases>
+        <test-case start='1626357930109' status='failed' stop='1626357946730'>
+            <name>User Registration and Login Test</name>
+            <title>User Registration and Login Test</title>
+            <labels>
+                <label name='feature' value='test run id or identifier'/>
+                <label name='story' value='Registration Fixture'/>
+                <label name='severity' value='blocker'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='test run id or identifier'/>
+                <parameter kind='argument' name='JIRA Story Link' value='https://jira.example.ca/browse/story id'/>
+                <parameter kind='argument' name='JIRA Test Link' value='https://jira.example.ca/secure/Tests.jspa#/testCase/test id'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9dc11684-120f-4512-9aa6-50d5e51249d2-attachment.png' type='image/png' size='82463'/>
+            </attachments>
+            <failure>
+                <message>AssertionError: expected true to be falsy</message>
+                <stack-trace>AssertionError: expected true to be falsy
+                
+                Browser: Chrome 91.0.4472.114 / Linux 0.0
+                Screenshot: /home/accountfy/Documentos/TestCafeDemo/report/screenshots/2021-07-15_11-05-07/test-2/Chrome_91.0.4472.114_Linux_0.0/errors/1.png
+                
+                   51 |            .typeText(loginpage.passwordInput,  data.password)
+                   52 |            .click(loginpage.submitButton)
+                   53 |            .click(homepage.MyAccountLink)
+                   54 |            .expect(customerpage.ordersLink.exists).ok()
+                   55 |            .click(customerpage.ordersLink)
+                 > 56 |            .expect(customerpage.noOrdersLabel.exists).notOk()
+                   57 |            .takeScreenshot();
+                   58 |    })
+                   59 |});
+                
+                   at &lt;anonymous> (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:56:56)
+                   at asyncGeneratorStep (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:5:271)
+                   at _next (/home/accountfy/Documentos/TestCafeDemo/test/RegistrationTest.js:5:609)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

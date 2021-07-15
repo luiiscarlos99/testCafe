@@ -1,0 +1,15 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "b1b3bee9cbea280580ee91c2791c562c",
+    "name" : "test run id or identifier",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

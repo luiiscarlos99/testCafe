@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 15 10:44:08 BRT 2021","Thu Jul 15 10:44:22 BRT 2021","14640","","Registration Fixture","","Registration Fixture","User Registration and Login Test","User Registration and Login Test",""
+"failed","Thu Jul 15 11:05:30 BRT 2021","Thu Jul 15 11:05:46 BRT 2021","16621","","Registration Fixture","","Registration Fixture","User Registration and Login Test","User Registration and Login Test",""
+"passed","Thu Jul 15 11:05:12 BRT 2021","Thu Jul 15 11:05:17 BRT 2021","4055","","Registration Fixture","","Registration Fixture","Assert home page","Assert home page",""

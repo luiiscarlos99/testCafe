@@ -21,7 +21,14 @@ test('Assert home page', async t => {
 });
 
 dataSet.forEach(data => {
-    test('User Registration and Login Test', async t => {
+    test
+    .meta({
+        ID: 'test id',
+        SEVERITY: 'blocker',
+        STORY: 'story id',
+        TEST_RUN: 'test run id or identifier'
+    })
+    ('User Registration and Login Test', async t => {
         await t
             .click(homepage.RegisterLink)
             .expect(getURL()).contains('register')

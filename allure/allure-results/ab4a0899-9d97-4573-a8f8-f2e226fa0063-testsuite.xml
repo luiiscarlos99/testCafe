@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626357824975' stop='1626357824975'>
+    <name>Registration Fixture</name>
+    <title>Registration Fixture</title>
+    <test-cases>
+        <test-case start='1626357824975' status='passed' stop='1626357829107'>
+            <name>Assert home page</name>
+            <title>Assert home page</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 91.0.4472.114 / Linux 0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

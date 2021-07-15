@@ -1,0 +1,52 @@
+{
+  "uid" : "be26ca6a0e6902b3",
+  "name" : "Assert home page",
+  "fullName" : "Registration Fixture.Assert home page",
+  "historyId" : "b8593c4d01c9951ea21b8bfc0f07f041",
+  "time" : {
+    "start" : 1626357824975,
+    "stop" : 1626357829107,
+    "duration" : 4132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "Assert home page"
+  }, {
+    "name" : "package",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 91.0.4472.114 / Linux 0.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be26ca6a0e6902b3.json",
+  "parameterValues" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+}
