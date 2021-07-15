@@ -7,14 +7,5 @@
         "birthyear": "1999",
         "email": "luiiscarlos99",
         "password": "123456"
-    },
-    {
-        "firstname": "James",
-        "lastname": "bond",
-        "birthday": "2",
-        "birthmonth": "July",
-        "birthyear": "1981",
-        "email": "james_bond",
-        "password": "6789433"
     }
 ]

@@ -1,0 +1,52 @@
+{
+  "uid" : "173d4189105833c2",
+  "name" : "User Registration and Login Test",
+  "fullName" : "Registration Fixture.User Registration and Login Test",
+  "historyId" : "c2a5c991406f4c0f868501b894fdbf4d",
+  "time" : {
+    "start" : 1626356632936,
+    "stop" : 1626356650512,
+    "duration" : 17576
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "User Registration and Login Test"
+  }, {
+    "name" : "package",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 91.0.4472.114 / Linux 0.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "173d4189105833c2.json",
+  "parameterValues" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+}

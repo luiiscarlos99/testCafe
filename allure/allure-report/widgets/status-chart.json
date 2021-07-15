@@ -1,0 +1,31 @@
+[ {
+  "uid" : "631edb54f8e639cd",
+  "name" : "User Registration and Login Test",
+  "time" : {
+    "start" : 1626356648099,
+    "stop" : 1626356662739,
+    "duration" : 14640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "894838d675c51cf5",
+  "name" : "User Registration and Login Test",
+  "time" : {
+    "start" : 1626357930109,
+    "stop" : 1626357946730,
+    "duration" : 16621
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "93061a63b1e376e1",
+  "name" : "Assert home page",
+  "time" : {
+    "start" : 1626357912972,
+    "stop" : 1626357917027,
+    "duration" : 4055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

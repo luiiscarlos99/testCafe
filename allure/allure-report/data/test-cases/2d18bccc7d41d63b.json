@@ -1,0 +1,64 @@
+{
+  "uid" : "2d18bccc7d41d63b",
+  "name" : "User Registration and Login Test",
+  "fullName" : "Registration Fixture.User Registration and Login Test",
+  "historyId" : "57acd8e409763f8b3596a3296d38bfd6",
+  "time" : {
+    "start" : 1626357840532,
+    "stop" : 1626357855576,
+    "duration" : 15044
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test run id or identifier"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "User Registration and Login Test"
+  }, {
+    "name" : "package",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/story id"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/test id"
+  }, {
+    "name" : "User Agent",
+    "value" : "test run id or identifier"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d18bccc7d41d63b.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/story id", "https://jira.example.ca/secure/Tests.jspa#/testCase/test id", "test run id or identifier" ]
+}

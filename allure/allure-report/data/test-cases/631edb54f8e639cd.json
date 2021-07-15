@@ -1,0 +1,92 @@
+{
+  "uid" : "631edb54f8e639cd",
+  "name" : "User Registration and Login Test",
+  "fullName" : "Registration Fixture.User Registration and Login Test",
+  "historyId" : "c2a5c991406f4c0f868501b894fdbf4d",
+  "time" : {
+    "start" : 1626356648099,
+    "stop" : 1626356662739,
+    "duration" : 14640
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "User Registration and Login Test"
+  }, {
+    "name" : "package",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 91.0.4472.114 / Linux 0.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "173d4189105833c2",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1626356632936,
+        "stop" : 1626356650512,
+        "duration" : 17576
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2b631f7aede5e12c",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1626356648099,
+          "stop" : 1626356662739,
+          "duration" : 14640
+        }
+      }, {
+        "uid" : "2f8c2ed871698bba",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1626356648099,
+          "stop" : 1626356662739,
+          "duration" : 14640
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "631edb54f8e639cd.json",
+  "parameterValues" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+}
