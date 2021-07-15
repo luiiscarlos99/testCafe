@@ -5,11 +5,11 @@ class HomePage{
         this.subtitleHeader = Selector('h2').withText(
           'Welcome to our store'
         )
-        this.RegisterLink = Selector('a').withText('Register')
-        this.LoginLink = Selector('a').withText('Log in')
-        this.CartLink = Selector('a').withText('Shopping cart')
-        this.MyAccountLink = Selector('a').withText('My account')
-        this.LogoutLink = Selector('a').withText('Log out')
+        this.RegisterLink =Selector('a.ico-register')
+        this.LoginLink = Selector('a.ico-login')
+        this.CartLink = Selector('a.ico-cart')
+        this.MyAccountLink = Selector('a.ico-account')
+        this.LogoutLink = Selector('a.ico-logout')
         this.currencyList = Selector("select#customerCurrency");
       }
       get productSearch() { 

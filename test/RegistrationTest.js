@@ -51,6 +51,8 @@ dataSet.forEach(data => {
             .typeText(loginpage.passwordInput,  data.password)
             .click(loginpage.submitButton)
             .click(homepage.MyAccountLink)
+            .expect(customerpage.menuMobile.exists).ok()
+            .click(customerpage.menuMobile)
             .expect(customerpage.ordersLink.exists).ok()
             .click(customerpage.ordersLink)
             .expect(customerpage.noOrdersLabel.exists).ok()
